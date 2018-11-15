@@ -66,7 +66,7 @@ for (let i = 0; i < items.length; i++) {
 const fragment = rows.reduce((acc, curr) => {
 return `${acc}<div class="row" style="height: ${curr.height}px">
   ${curr.items.reduce((accumulated, currentItem) => {
-    return `${accumulated}<img src="/img/${currentItem.src}">`  
+    return `${accumulated}<img src="./img/${currentItem.src}">`  
   }, '')}  
 </div>`
 }, '');
