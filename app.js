@@ -1,4 +1,4 @@
-let items = [
+const items = [
   {w: 386, h: 217, src: 'image_1.jpg'},
   {w: 130, h: 232, src: 'image_2.jpg'},
   {w: 351, h: 197, src: 'image_3.jpg'},
